@@ -31,7 +31,7 @@ public class ZDocumentPane extends DocumentPane implements DocumentComponentList
         this.parent = parent;
         this.setReorderAllowed(false);
         this.setTabPlacement(DocumentPane.TOP);
-        this.setUpdateTitle(false);
+        //this.setUpdateTitle(false);
         setTabbedPaneCustomizer(new DocumentPane.TabbedPaneCustomizer() {
             public void customize(JideTabbedPane jideTabbedPane) {
                 jideTabbedPane.setRightClickSelect(true);
